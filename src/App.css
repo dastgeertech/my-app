@@ -95,6 +95,55 @@ height: 25.127px;
 flex-shrink: 0;
 }
 
+.passanger{
+  color: #838D94;
+font-family: Product Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.passanger-blue{
+  color: #0061FF;
+font-family: Product Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.passenger-button {
+/* Semibold 12 */
+font-family: Manrope;
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.rnd-btn {
+  border-radius: 4px;
+}
+
+.passanger-top-card-title {
+  color: var(--2nd-text-color, #808191);
+font-family: Manrope;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.passanger-top-card {
+  color: var(--Text-Primary-color, #11142D);
+font-family: Manrope;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
 .p-20 {
   padding: 20px 30px;
 }

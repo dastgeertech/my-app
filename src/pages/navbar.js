@@ -14,12 +14,12 @@ const Navbar = ({ title }) => {
       <div className="date flex gap-2 w-[322px] h-[46px] text-base text-text-title-1">
           <div className="custom-border px-2 rounded-corner-radius-corner-radius-2 bg-white box-border w-[157px] flex flex-row items-center justify-start py-3 px-spacing-spacing-2 border-[1px] border-solid border-for-lines-text-field">
             <div className=" tracking-[-0.02em] leading-[140%] overflow-hidden text-ellipsis whitespace-nowrap">
-              17/12/2023
+              <input className="border-0 outline-0" type="date" />
             </div>
           </div>
           <div className="custom-border px-2 rounded-corner-radius-corner-radius-2 bg-white box-border w-[157px] flex flex-row items-center justify-start py-3 px-spacing-spacing-2 border-[1px] border-solid border-for-lines-text-field">
             <div className=" tracking-[-0.02em] leading-[140%] overflow-hidden text-ellipsis whitespace-nowrap">
-              20/12/2023
+            <input className="border-0 outline-0" type="date" />
             </div>
           </div>
         </div>

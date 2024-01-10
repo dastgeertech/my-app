@@ -8,10 +8,10 @@ const HornlinkPIUPassengers = () => {
         <div className="PropertiesForSale grow shrink px-5 py-6 bg-indigo-50 rounded-2xl flex-col justify-start items-start gap-2.5 inline-flex">
           <div className="Frame19 self-stretch justify-start items-center gap-3 inline-flex">
             <div className="Frame18 grow shrink flex-col justify-start items-start gap-1 inline-flex">
-              <div className="PropertiesForSale text-gray-500 text-sm font-medium font-['Manrope']">
+              <div className="passanger-top-card-title">
                 Total Passengers
               </div>
-              <div className=" self-stretch text-slate-900 text-2xl font-bold font-['Manrope']">
+              <div className="passanger-top-card">
                 8,526
               </div>
             </div>
@@ -38,10 +38,10 @@ const HornlinkPIUPassengers = () => {
         <div className="PropertiesForRentUihut grow shrink px-5 py-4 bg-rose-100 rounded-2xl flex-col justify-start items-start gap-2.5 inline-flex">
           <div className="Frame21 self-stretch justify-start items-center gap-2 inline-flex">
             <div className="Frame20 grow shrink flex-col justify-start items-start gap-1 inline-flex">
-              <div className="PropertiesForRent self-stretch text-gray-500 text-sm font-medium font-['Manrope']">
+              <div className="passanger-top-card-title">
                 Total watchlist{" "}
               </div>
-              <div className=" self-stretch text-slate-900 text-2xl font-bold font-['Manrope']">
+              <div className="passanger-top-card">
                 546
               </div>
             </div>
@@ -68,10 +68,10 @@ const HornlinkPIUPassengers = () => {
         <div className="TotalCustomerUihut grow shrink p-3 bg-green-100 rounded-2xl flex-col justify-start items-start gap-2.5 inline-flex">
           <div className="Frame24 self-stretch justify-start items-center gap-px inline-flex">
             <div className="Frame23 grow shrink flex-col justify-start items-start gap-1 inline-flex">
-              <div className="TotalCustomer self-stretch text-gray-500 text-sm font-medium font-['Manrope']">
+              <div className="passanger-top-card-title">
                 Founded watchlist{" "}
               </div>
-              <div className="732 self-stretch text-slate-900 text-2xl font-bold font-['Manrope']">
+              <div className="passanger-top-card">
                 325
               </div>
             </div>
@@ -97,11 +97,11 @@ const HornlinkPIUPassengers = () => {
         </div>
         <div className="TotalCityUihut grow shrink px-5 py-4 bg-pink-100 rounded-2xl flex-col justify-start items-start gap-2.5 inline-flex">
           <div className="Frame27 self-stretch justify-start items-center gap-4 inline-flex">
-            <div className="Frame26 grow shrink flex-col justify-start items-start gap-1 inline-flex">
-              <div className="TotalCity self-stretch text-gray-500 text-sm font-medium font-['Manrope']">
+            <div className="Frame26 grow shrink flex-col justify-start items-start gap-[5px] inline-flex">
+              <div className="passanger-top-card-title">
                 Recorded List
               </div>
-              <div className=" self-stretch text-slate-900 text-2xl font-bold font-['Manrope']">
+              <div className="passanger-top-card">
                 90
               </div>
             </div>
@@ -289,35 +289,37 @@ const HornlinkPIUPassengers = () => {
       </tr>
     </thead>
     <tbody>
+  
+     
       <tr>
         <td class="pr-4 py-4">
           <div class="flex items-center gap-3">
             <div class="flex flex-col">
-              <p class="block antialiased font-sans text-sm leading-normal text-slate-500 font-normal font-['Product Sans']">APDS83</p>
+              <p class="block passanger-blue">APDS83</p>
             </div>
           </div>
         </td>
         <td class="py-4">
           <div class="flex items-center gap-3">
-              <p class="block w-2/3 antialiased font-sans text-[#0061FF] text-sm font-normal font-['Product Sans']">AD - SHAMSO AHMED JIMALE
+              <p class="block w-2/3 passanger ">AD - SHAMSO AHMED JIMALE
          +252613195813</p>
           </div>
         </td>
         <td class="py-4">
-            <p class="block w-4/5 antialiased text-slate-500 text-sm font-normal font-['Product Sans']">Mogadishu Hargeisa
+            <p class="block w-4/5 passanger">Mogadishu Hargeisa
 XU-0523 - md-82</p>
         </td>
        
         <td class="py-4">
-          <p class="block w-4/5 antialiased font-sans text-[#0061FF] text-sm font-normal font-['Product Sans']">01 Jan 2024 09:30 am - 11:00 am</p>
+          <p class="block w-4/5 passanger">01 Jan 2024 09:30 am - 11:00 am</p>
         </td>
         <td class="p-4 pl-4">
-        <p class="block antialiased text-slate-500 text-sm font-normal font-['Product Sans']">African Express</p>
+        <p class="block passanger">African Express</p>
         </td>
         <td class="flex justify-center py-4">
           <div class="w-max">
-            <div class="relative grid items-center whitespace-nowrap select-none bg-green-500/20 text-green-600 py-1 px-2 text-xs rounded-md opacity-1">
-              <span class="text-indigo-600 text-xs font-semibold font-['Manrope']">Boarded</span>
+            <div class="relative grid items-center whitespace-nowrap select-none bg-[#DADEFA] rnd-btn py-1 px-2 ">
+              <span class="passenger-button text-[#475BE8]">Boarded</span>
             </div>
           </div>
         </td>
@@ -327,142 +329,208 @@ XU-0523 - md-82</p>
         <td class="pr-4 py-4">
           <div class="flex items-center gap-3">
             <div class="flex flex-col">
-              <p class="block antialiased text-sm text-slate-500 font-normal font-['Product Sans']">APDS83</p>
+              <p class="block passanger-blue">APDS83</p>
             </div>
           </div>
         </td>
         <td class="py-4">
           <div class="flex items-center gap-3">
-              <p class="block w-2/3 antialiased font-sans text-sm text-[#0061FF] font-normal font-['Product Sans']">AD - SHAMSO AHMED JIMALE
+              <p class="block w-2/3 passanger ">AD - SHAMSO AHMED JIMALE
          +252613195813</p>
           </div>
         </td>
         <td class="py-4">
-            <p class="block w-4/5 antialiased text-sm text-slate-500 font-normal font-['Product Sans']">Mogadishu Hargeisa
+            <p class="block w-4/5 passanger">Mogadishu Hargeisa
 XU-0523 - md-82</p>
         </td>
        
         <td class="py-4">
-          <p class="block w-4/5 antialiased font-sans text-sm text-[#0061FF] font-normal font-['Product Sans']">01 Jan 2024 09:30 am - 11:00 am</p>
+          <p class="block w-4/5 passanger">01 Jan 2024 09:30 am - 11:00 am</p>
         </td>
         <td class="p-4 pl-4">
-        <p class="block antialiased font-sans text-sm text-slate-500 font-normal font-['Product Sans']">African Express</p>
-        </td>
-        <td class="flex justify-center py-4 ">
-          <div class="w-max">
-          <div class="relative grid items-center justify-center whitespace-nowrap select-none bg-red-500/20 text-red-700 py-1 px-2 text-xs rounded-md opacity-1">
-              <span class="text-rose-500 text-xs font-semibold font-['Manrope']">Pending</span>
-            </div>
-          </div>
-        </td>
-       
-      </tr>
-
-      <tr>
-        <td class="pr-4 py-4">
-          <div class="flex items-center gap-3">
-            <div class="flex flex-col">
-              <p class="block antialiased font-sans text-sm leading-normal text-blue-gray-900 font-normal">APDS83</p>
-            </div>
-          </div>
-        </td>
-        <td class="py-4">
-          <div class="flex items-center gap-3">
-              <p class="block w-2/3 antialiased font-sans text-sm text-[#0061FF] leading-normal text-blue-gray-900 font-normal">AD - SHAMSO AHMED JIMALE
-         +252613195813</p>
-          </div>
-        </td>
-        <td class="py-4">
-            <p class="block w-4/5 antialiased font-sans text-sm leading-normal text-blue-gray-900 font-normal">Mogadishu Hargeisa
-XU-0523 - md-82</p>
-        </td>
-       
-        <td class="py-4">
-          <p class="block w-4/5 antialiased font-sans text-sm text-[#0061FF] leading-normal text-blue-gray-900 font-normal">01 Jan 2024 09:30 am - 11:00 am</p>
-        </td>
-        <td class="p-4 pl-4">
-        <p class="block antialiased font-sans text-sm leading-normal text-blue-gray-900 font-normal">African Express</p>
+        <p class="block passanger">African Express</p>
         </td>
         <td class="flex justify-center py-4">
           <div class="w-max">
-          <div class="relative grid items-center font-sans font-bold uppercase whitespace-nowrap select-none bg-green-500/20 text-green-600 py-1 px-2 text-xs rounded-md opacity-1">
-              <span class="">Completed</span>
+            <div class="relative grid items-center whitespace-nowrap select-none rnd-btn bg-[#DCFFEC] py-1 px-2 ">
+              <span class="passenger-button text-[#22A965]">Active</span>
             </div>
           </div>
         </td>
        
       </tr>
-
       <tr>
         <td class="pr-4 py-4">
           <div class="flex items-center gap-3">
             <div class="flex flex-col">
-              <p class="block antialiased font-sans text-sm leading-normal text-blue-gray-900 font-normal">APDS83</p>
+              <p class="block passanger-blue">APDS83</p>
             </div>
           </div>
         </td>
         <td class="py-4">
           <div class="flex items-center gap-3">
-              <p class="block w-2/3 antialiased font-sans text-sm text-[#0061FF] leading-normal text-blue-gray-900 font-normal">AD - SHAMSO AHMED JIMALE
+              <p class="block w-2/3 passanger ">AD - SHAMSO AHMED JIMALE
          +252613195813</p>
           </div>
         </td>
         <td class="py-4">
-            <p class="block w-4/5 antialiased font-sans text-sm leading-normal text-blue-gray-900 font-normal">Mogadishu Hargeisa
+            <p class="block w-4/5 passanger">Mogadishu Hargeisa
 XU-0523 - md-82</p>
         </td>
        
         <td class="py-4">
-          <p class="block w-4/5 antialiased font-sans text-sm text-[#0061FF] leading-normal text-blue-gray-900 font-normal">01 Jan 2024 09:30 am - 11:00 am</p>
+          <p class="block w-4/5 passanger">01 Jan 2024 09:30 am - 11:00 am</p>
         </td>
         <td class="p-4 pl-4">
-        <p class="block antialiased font-sans text-sm leading-normal text-blue-gray-900 font-normal">African Express</p>
+        <p class="block passanger">African Express</p>
         </td>
         <td class="flex justify-center py-4">
           <div class="w-max">
-          <div class="relative grid items-center font-sans font-bold uppercase whitespace-nowrap select-none bg-yellow-500/20 text-yellow-600 py-1 px-2 text-xs rounded-md opacity-1">
-              <span class="">Scheduled	
-</span>
+            <div class="relative grid items-center whitespace-nowrap bg-[#FFEBEF] select-none rnd-btn py-1 px-2 ">
+              <span class="passenger-button text-[#DF3C61]">Watchlisted</span>
             </div>
           </div>
         </td>
        
       </tr>
-
       <tr>
         <td class="pr-4 py-4">
           <div class="flex items-center gap-3">
             <div class="flex flex-col">
-              <p class="block antialiased font-sans text-sm leading-normal text-blue-gray-900 font-normal">APDS83</p>
+              <p class="block passanger-blue">APDS83</p>
             </div>
           </div>
         </td>
         <td class="py-4">
           <div class="flex items-center gap-3">
-              <p class="block w-2/3 antialiased font-sans text-sm text-[#0061FF] leading-normal text-blue-gray-900 font-normal">AD - SHAMSO AHMED JIMALE
+              <p class="block w-2/3 passanger ">AD - SHAMSO AHMED JIMALE
          +252613195813</p>
           </div>
         </td>
         <td class="py-4">
-            <p class="block w-4/5 antialiased font-sans text-sm leading-normal text-blue-gray-900 font-normal">Mogadishu Hargeisa
+            <p class="block w-4/5 passanger">Mogadishu Hargeisa
 XU-0523 - md-82</p>
         </td>
        
         <td class="py-4">
-          <p class="block w-4/5 antialiased font-sans text-sm text-[#0061FF] leading-normal text-blue-gray-900 font-normal">01 Jan 2024 09:30 am - 11:00 am</p>
+          <p class="block w-4/5 passanger">01 Jan 2024 09:30 am - 11:00 am</p>
         </td>
         <td class="p-4 pl-4">
-        <p class="block antialiased font-sans text-sm leading-normal text-blue-gray-900 font-normal">African Express</p>
+        <p class="block passanger">African Express</p>
         </td>
         <td class="flex justify-center py-4">
           <div class="w-max">
-          <div class="relative grid items-center font-sans font-bold uppercase whitespace-nowrap select-none bg-green-100 text-purple-600 py-1 px-2 text-xs rounded-md opacity-1">
-              <span class="text-green-500 text-xs font-semibold font-['Manrope']">active</span>
+            <div class="relative grid items-center whitespace-nowrap select-none rnd-btn py-1 px-2 ">
+              <span class="passenger-button text-[#475BE8]">Boarded</span>
             </div>
           </div>
         </td>
        
       </tr>
+      <tr>
+        <td class="pr-4 py-4">
+          <div class="flex items-center gap-3">
+            <div class="flex flex-col">
+              <p class="block passanger-blue">APDS83</p>
+            </div>
+          </div>
+        </td>
+        <td class="py-4">
+          <div class="flex items-center gap-3">
+              <p class="block w-2/3 passanger ">AD - SHAMSO AHMED JIMALE
+         +252613195813</p>
+          </div>
+        </td>
+        <td class="py-4">
+            <p class="block w-4/5 passanger">Mogadishu Hargeisa
+XU-0523 - md-82</p>
+        </td>
+       
+        <td class="py-4">
+          <p class="block w-4/5 passanger">01 Jan 2024 09:30 am - 11:00 am</p>
+        </td>
+        <td class="p-4 pl-4">
+        <p class="block passanger">African Express</p>
+        </td>
+        <td class="flex justify-center py-4">
+          <div class="w-max">
+            <div class="relative grid items-center whitespace-nowrap select-none rnd-btn py-1 px-2 ">
+              <span class="passenger-button text-[#475BE8]">Boarded</span>
+            </div>
+          </div>
+        </td>
+       
+      </tr>
+      <tr>
+        <td class="pr-4 py-4">
+          <div class="flex items-center gap-3">
+            <div class="flex flex-col">
+              <p class="block passanger-blue">APDS83</p>
+            </div>
+          </div>
+        </td>
+        <td class="py-4">
+          <div class="flex items-center gap-3">
+              <p class="block w-2/3 passanger ">AD - SHAMSO AHMED JIMALE
+         +252613195813</p>
+          </div>
+        </td>
+        <td class="py-4">
+            <p class="block w-4/5 passanger">Mogadishu Hargeisa
+XU-0523 - md-82</p>
+        </td>
+       
+        <td class="py-4">
+          <p class="block w-4/5 passanger">01 Jan 2024 09:30 am - 11:00 am</p>
+        </td>
+        <td class="p-4 pl-4">
+        <p class="block passanger">African Express</p>
+        </td>
+        <td class="flex justify-center py-4">
+          <div class="w-max">
+            <div class="relative grid items-center whitespace-nowrap select-none rnd-btn py-1 px-2 ">
+              <span class="passenger-button text-[#475BE8]">Boarded</span>
+            </div>
+          </div>
+        </td>
+       
+      </tr>
+      <tr>
+        <td class="pr-4 py-4">
+          <div class="flex items-center gap-3">
+            <div class="flex flex-col">
+              <p class="block passanger-blue">APDS83</p>
+            </div>
+          </div>
+        </td>
+        <td class="py-4">
+          <div class="flex items-center gap-3">
+              <p class="block w-2/3 passanger ">AD - SHAMSO AHMED JIMALE
+         +252613195813</p>
+          </div>
+        </td>
+        <td class="py-4">
+            <p class="block w-4/5 passanger">Mogadishu Hargeisa
+XU-0523 - md-82</p>
+        </td>
+       
+        <td class="py-4">
+          <p class="block w-4/5 passanger">01 Jan 2024 09:30 am - 11:00 am</p>
+        </td>
+        <td class="p-4 pl-4">
+        <p class="block passanger">African Express</p>
+        </td>
+        <td class="flex justify-center py-4">
+          <div class="w-max">
+            <div class="relative grid items-center whitespace-nowrap select-none rnd-btn py-1 px-2 ">
+              <span class="passenger-button text-[#475BE8]">Boarded</span>
+            </div>
+          </div>
+        </td>
+       
+      </tr>
+    
+    
 
  
     </tbody>
